@@ -7,21 +7,4 @@ export const config = {
     server:{
         port:process.env.PORT
     },
-    JWT:{
-        SECRET:process.env.JWT_SECRET,
-        EXPIRES_IN:process.env.JWT_EXPIRES
-    },
-    emailAdmin:{
-        email:process.env.ADMIN_EMAIL,
-        password:process.env.ADMIN_PASSWORD
-    },
-    email:{
-        email_user:process.env.EMAIL_USER,
-        email_pass:process.env.EMAIL_PASS
-    },
-    cloudinary:{
-        CLOUDINARY_CLOUD_NAME:process.env.CLOUDINARY_NAME,
-        CLOUDINARY_API_KEY:process.env.CLOUDINARY_API_KEY,
-        CLOUDINARY_API_SECRET:process.env.CLOUDINARY_API_SECRET
-    },
 }
