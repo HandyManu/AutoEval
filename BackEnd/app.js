@@ -1,12 +1,12 @@
 import express from "express";
 
-//import clientesRoutes from "../Backend/src/routes/clientes.js";
+import taskRoutes from "../BackEnd/src/routes/taskRotes.js"
 
 
 const app = express();
 
 app.use(express.json());
-//app.use("/api/clientes", clientesRoutes);
- 
+app.use("/api/tasks", taskRoutes);
 
 export default app;
+ 
